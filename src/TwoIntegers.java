@@ -30,13 +30,12 @@ public class TwoIntegers
 	{
 		this.num2 = num2;
 	}
-	public TwoIntegers addition(TwoIntegers twoint)
+	public TwoIntegers arithmetic()
 	{
-		int value1 = this.value1 + twoint.getNum1();
-		int value2 = this.value2 + twoint.getNum2();
-		TwoIntegers result = new TwoIntegers(value1, value2);
-		return result;
+		
 	}
+
+
 
 
 
