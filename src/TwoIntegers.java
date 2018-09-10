@@ -30,18 +30,21 @@ public class TwoIntegers
 	{
 		this.num2 = num2;
 	}
-	public TwoIntegers arithmetic()
+	public String displayArithmetic()
 	{
-		
+		int sum1 = num1 + num2;
+		int sum2 = num1 - num2;
+		int sum3 = num1 * num2;
+		int sum4 = num1 / num2;
+		return num1 + "+" + num2 + "=" + sum1 +  " \n " + 
+				num1 + "-" + num2 + "=" + sum2 + " \n " + num1 + "*" + num2 + "=" + sum3 + " \n " + 
+				num1 + "/" + num2 + "=" + sum4 + " \n ";
 	}
 
-
-
-
-
+	
+		
+	
 
 
 
 }
-
-
