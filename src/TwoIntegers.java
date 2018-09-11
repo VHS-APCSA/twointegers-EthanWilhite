@@ -40,6 +40,17 @@ public class TwoIntegers
 				num1 + "-" + num2 + "=" + sum2 + " \n " + num1 + "*" + num2 + "=" + sum3 + " \n " + 
 				num1 + "/" + num2 + "=" + sum4 + " \n ";
 	}
+	public int larger()
+	{
+		if(num1 < num2)
+		{
+			return num2;
+		}
+		else
+		{
+			return num1;
+		}
+	}
 		
 	
 	
