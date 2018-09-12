@@ -49,9 +49,35 @@ public class TwoIntegers
 		else
 		{
 			return num1;
+		}	
+		}
+	public boolean isEven()
+	{
+		if(num1 + num2 % 2 ==0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
 		}
 	}
+	public boolean isMultiple()
+	{
+		if(num1 % num2 ==0)
+		{
+			return true;
+		}
+	else
+	{
+		return false;
+	}
+	}
+}
+
+
+
+
 		
 	
 	
-}
