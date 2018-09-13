@@ -4,19 +4,24 @@ public class TwoIntegersTest
 	public static void main(String[] args)
 	{ 
 		Scanner input = new Scanner(System.in);
-		TwoIntegers twointegers = new TwoIntegers(6,13);
-		int num1 = twointegers.getNum1();
-		int num2 = twointegers.getNum2();
-		String arithmetic = twointegers.displayArithmetic();
+		System.out.print(" Enter two numbers: ");
+		int value1 = input.nextInt();
+		int value2 = input.nextInt(); 
+		TwoIntegers it = new TwoIntegers(value1, value2);
+		int sum1 = it.getNum1();
+		int sum2 = it.getNum2();
+		int num1 = it.getNum1();
+		int num2 = it.getNum2();
+		String arithmetic = it.displayArithmetic();
 		System.out.print(arithmetic);
-		int larger = twointegers.larger();
+		int larger = it.larger();
 		System.out.println(larger + " is larger than num1 so it was returned as true ");
-		boolean isEven = twointegers.isEven();
+		boolean isEven = it.isEven();
 		System.out.println(num2 + " is not even so = " + isEven);
-		boolean isMultiple = twointegers.isMultiple();
+		boolean isMultiple = it.isMultiple();
 		System.out.println(num2 + " is not a multiple of 6 so = "+ isMultiple );
-		System.out.print(" Enter a number: ");
-		int value = input.nextInt();
+		
+		
 		
 		
 	}
