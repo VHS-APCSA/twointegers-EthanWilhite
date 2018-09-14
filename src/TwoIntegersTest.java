@@ -19,7 +19,7 @@ public class TwoIntegersTest
 		boolean isEven = it.isEven();
 		System.out.println(" is " + value1 + " + " + value2 + " even? = " + isEven);
 		boolean isMultiple = it.isMultiple();
-		System.out.println(" is " + value1 + " a multiple of " + value2 + isMultiple );
+		System.out.println(" is " + value1 + " a multiple of " + value2 + " " + isMultiple );
 		
 		
 		
