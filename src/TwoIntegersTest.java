@@ -15,11 +15,11 @@ public class TwoIntegersTest
 		String arithmetic = it.displayArithmetic();
 		System.out.print(arithmetic);
 		int larger = it.larger();
-		System.out.println(larger + " is larger than num1 so it was returned as true ");
+		System.out.println(larger + " the largest number of these two numbers was returned ");
 		boolean isEven = it.isEven();
-		System.out.println(num2 + " is not even so = " + isEven);
+		System.out.println(" is " + value1 + " + " + value2 + " even? = " + isEven);
 		boolean isMultiple = it.isMultiple();
-		System.out.println(num2 + " is not a multiple of 6 so = "+ isMultiple );
+		System.out.println(" is " + value1 + " a multiple of " + value2 + isMultiple );
 		
 		
 		
